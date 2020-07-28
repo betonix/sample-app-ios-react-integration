@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import React
+import SellingCartApp
 
 class ViewController: UIViewController {
 
@@ -15,6 +17,26 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    @IBAction func didTapButton(_ sender: Any) {
+        guard var bridge = RCTBridge(delegate: self, launchOptions: nil) else { return }
+        var addRatingView = self.createReactView(bridge: bridge)
+        self.view.addSubview(addRatingView)
+        addRatingView.frame = self.view.bounds
+    }
+    
+}
 
+extension ViewController: RCTBridgeDelegate {
+   public func sourceURL(for bridge: RCTBridge!) -> URL! {
+     
+    let bundle = Bundle(for: SellingCartApp.AppDelegate.self)
+      return bundle.url(forResource: "index.ios", withExtension: "jsbundle")
+    
+    }
+    func createReactView(bridge: RCTBridge) -> RCTRootView {
+          return RCTRootView(bridge: bridge,
+          moduleName: "SellingCartApp",
+          initialProperties: nil)
+    }
 }
 
