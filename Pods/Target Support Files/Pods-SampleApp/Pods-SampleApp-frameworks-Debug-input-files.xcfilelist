@@ -2,6 +2,7 @@ ${PODS_ROOT}/Target Support Files/Pods-SampleApp/Pods-SampleApp-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/DoubleConversion/DoubleConversion.framework
 ${BUILT_PRODUCTS_DIR}/FBReactNativeSpec/FBReactNativeSpec.framework
 ${BUILT_PRODUCTS_DIR}/Folly/folly.framework
+${BUILT_PRODUCTS_DIR}/MyModule/MyModule.framework
 ${BUILT_PRODUCTS_DIR}/RCTTypeSafety/RCTTypeSafety.framework
 ${BUILT_PRODUCTS_DIR}/React-Core/React.framework
 ${BUILT_PRODUCTS_DIR}/React-CoreModules/CoreModules.framework
@@ -18,6 +19,5 @@ ${BUILT_PRODUCTS_DIR}/React-jsi/jsi.framework
 ${BUILT_PRODUCTS_DIR}/React-jsiexecutor/jsireact.framework
 ${BUILT_PRODUCTS_DIR}/React-jsinspector/jsinspector.framework
 ${BUILT_PRODUCTS_DIR}/ReactCommon/ReactCommon.framework
-${BUILT_PRODUCTS_DIR}/SellingCartApp/SellingCartApp.framework
 ${BUILT_PRODUCTS_DIR}/Yoga/yoga.framework
 ${BUILT_PRODUCTS_DIR}/glog/glog.framework

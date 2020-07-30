@@ -1,6 +1,0 @@
-framework module SellingCartApp {
-  umbrella header "SellingCartApp-umbrella.h"
-
-  export *
-  module * { export * }
-}

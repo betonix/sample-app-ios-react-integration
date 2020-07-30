@@ -8,7 +8,7 @@
 
 import UIKit
 import React
-import SellingCartApp
+import MyModule
 
 class ViewController: UIViewController {
 
@@ -29,13 +29,13 @@ class ViewController: UIViewController {
 extension ViewController: RCTBridgeDelegate {
    public func sourceURL(for bridge: RCTBridge!) -> URL! {
      
-    let bundle = Bundle(for: SellingCartApp.AppDelegate.self)
+    let bundle = Bundle(for: MyModule.AppDelegate.self)
       return bundle.url(forResource: "index.ios", withExtension: "jsbundle")
     
     }
     func createReactView(bridge: RCTBridge) -> RCTRootView {
           return RCTRootView(bridge: bridge,
-          moduleName: "SellingCartApp",
+          moduleName: "MyModule",
           initialProperties: nil)
     }
 }

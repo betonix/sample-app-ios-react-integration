@@ -19,6 +19,21 @@ PODS:
     - DoubleConversion
     - glog
   - glog (0.3.5)
+  - MyModule (1.0):
+    - React
+    - React-Core
+    - React-Core/DevSupport
+    - React-Core/RCTWebSocket
+    - React-CoreModules
+    - React-RCTActionSheet
+    - React-RCTAnimation
+    - React-RCTBlob
+    - React-RCTImage
+    - React-RCTLinking
+    - React-RCTNetwork
+    - React-RCTSettings
+    - React-RCTText
+    - React-RCTVibration
   - RCTRequired (0.63.2)
   - RCTTypeSafety (0.63.2):
     - FBLazyVector (= 0.63.2)
@@ -245,21 +260,6 @@ PODS:
     - React-Core (= 0.63.2)
     - React-cxxreact (= 0.63.2)
     - React-jsi (= 0.63.2)
-  - SellingCartApp (1.0):
-    - React
-    - React-Core
-    - React-Core/DevSupport
-    - React-Core/RCTWebSocket
-    - React-CoreModules
-    - React-RCTActionSheet
-    - React-RCTAnimation
-    - React-RCTBlob
-    - React-RCTImage
-    - React-RCTLinking
-    - React-RCTNetwork
-    - React-RCTSettings
-    - React-RCTText
-    - React-RCTVibration
   - Yoga (1.14.0)
 
 DEPENDENCIES:
@@ -268,6 +268,7 @@ DEPENDENCIES:
   - FBReactNativeSpec (from `node_modules/react-native/Libraries/FBReactNativeSpec`)
   - Folly (from `node_modules/react-native/third-party-podspecs/Folly.podspec`)
   - glog (from `node_modules/react-native/third-party-podspecs/glog.podspec`)
+  - MyModule (from `https://github.com/betonix/module-react-native-to-be-integrate-on-native.git`, branch `master`)
   - RCTRequired (from `node_modules/react-native/Libraries/RCTRequired`)
   - RCTTypeSafety (from `node_modules/react-native/Libraries/TypeSafety`)
   - React (from `node_modules/react-native/`)
@@ -290,7 +291,6 @@ DEPENDENCIES:
   - React-RCTText (from `node_modules/react-native/Libraries/Text`)
   - React-RCTVibration (from `node_modules/react-native/Libraries/Vibration`)
   - ReactCommon/turbomodule/core (from `node_modules/react-native/ReactCommon`)
-  - "SellingCartApp (from `git@github.com:jacksonsmith/integration_ios_rn.git`, branch `master`)"
   - Yoga (from `node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
@@ -308,6 +308,9 @@ EXTERNAL SOURCES:
     :podspec: node_modules/react-native/third-party-podspecs/Folly.podspec
   glog:
     :podspec: node_modules/react-native/third-party-podspecs/glog.podspec
+  MyModule:
+    :branch: master
+    :git: https://github.com/betonix/module-react-native-to-be-integrate-on-native.git
   RCTRequired:
     :path: node_modules/react-native/Libraries/RCTRequired
   RCTTypeSafety:
@@ -348,16 +351,13 @@ EXTERNAL SOURCES:
     :path: node_modules/react-native/Libraries/Vibration
   ReactCommon:
     :path: node_modules/react-native/ReactCommon
-  SellingCartApp:
-    :branch: master
-    :git: "git@github.com:jacksonsmith/integration_ios_rn.git"
   Yoga:
     :path: node_modules/react-native/ReactCommon/yoga
 
 CHECKOUT OPTIONS:
-  SellingCartApp:
-    :commit: db7cf39360d023b124970335593cd543dae67287
-    :git: "git@github.com:jacksonsmith/integration_ios_rn.git"
+  MyModule:
+    :commit: 926be4a7fc822a002243bba0dc7d76e4ce0b2144
+    :git: https://github.com/betonix/module-react-native-to-be-integrate-on-native.git
 
 SPEC CHECKSUMS:
   boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
@@ -366,6 +366,7 @@ SPEC CHECKSUMS:
   FBReactNativeSpec: dc7fa9088f0f2a998503a352b0554d69a4391c5a
   Folly: b73c3869541e86821df3c387eb0af5f65addfab4
   glog: 40a13f7840415b9a77023fbcae0f1e6f43192af3
+  MyModule: 5a68109b19efe02b25d4611691bda98428457112
   RCTRequired: f13f25e7b12f925f1f6a6a8c69d929a03c0129fe
   RCTTypeSafety: 44982c5c8e43ff4141eb519a8ddc88059acd1f3a
   React: e1c65dd41cb9db13b99f24608e47dd595f28ca9a
@@ -386,9 +387,8 @@ SPEC CHECKSUMS:
   React-RCTText: 1b6773e776e4b33f90468c20fe3b16ca3e224bb8
   React-RCTVibration: 4d2e726957f4087449739b595f107c0d4b6c2d2d
   ReactCommon: a0a1edbebcac5e91338371b72ffc66aa822792ce
-  SellingCartApp: 944b42370603965c696b1c7317be71af0895b143
   Yoga: 7740b94929bbacbddda59bf115b5317e9a161598
 
-PODFILE CHECKSUM: 7ad062b3ca2a0133509f9e87196f7421cd0fa958
+PODFILE CHECKSUM: e50bcfe16870ae707b85e77fa930e791030dd443
 
 COCOAPODS: 1.9.3

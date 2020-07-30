@@ -14,9 +14,9 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C51181FDCE26B9A54BC69FDA4BCF872F"
-               BuildableName = "SellingCartApp.framework"
-               BlueprintName = "SellingCartApp"
+               BlueprintIdentifier = "CFB9087554584847CEBAFE40E74E750D"
+               BuildableName = "MyModule.framework"
+               BlueprintName = "MyModule"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

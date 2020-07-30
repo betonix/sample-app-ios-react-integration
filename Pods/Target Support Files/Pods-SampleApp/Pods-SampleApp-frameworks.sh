@@ -200,6 +200,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/DoubleConversion/DoubleConversion.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/FBReactNativeSpec/FBReactNativeSpec.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Folly/folly.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/MyModule/MyModule.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/RCTTypeSafety/RCTTypeSafety.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/React-Core/React.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/React-CoreModules/CoreModules.framework"
@@ -216,7 +217,6 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/React-jsiexecutor/jsireact.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/React-jsinspector/jsinspector.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ReactCommon/ReactCommon.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/SellingCartApp/SellingCartApp.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Yoga/yoga.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/glog/glog.framework"
 fi
@@ -224,6 +224,7 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/DoubleConversion/DoubleConversion.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/FBReactNativeSpec/FBReactNativeSpec.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Folly/folly.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/MyModule/MyModule.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/RCTTypeSafety/RCTTypeSafety.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/React-Core/React.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/React-CoreModules/CoreModules.framework"
@@ -240,7 +241,6 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/React-jsiexecutor/jsireact.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/React-jsinspector/jsinspector.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ReactCommon/ReactCommon.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/SellingCartApp/SellingCartApp.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Yoga/yoga.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/glog/glog.framework"
 fi

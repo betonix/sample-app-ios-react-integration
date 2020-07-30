@@ -6,7 +6,9 @@ require_relative 'node_modules/react-native/scripts/react_native_pods'
 target 'SampleApp' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-  pod 'SellingCartApp', :git => 'git@github.com:jacksonsmith/integration_ios_rn.git', :branch => 'master'
+
+  pod 'MyModule', :git => 'https://github.com/betonix/module-react-native-to-be-integrate-on-native.git', :branch => 'master'
+  
   pod 'FBLazyVector', :path => "node_modules/react-native/Libraries/FBLazyVector"
   pod 'FBReactNativeSpec', :path => "node_modules/react-native/Libraries/FBReactNativeSpec"
   pod 'RCTRequired', :path => "node_modules/react-native/Libraries/RCTRequired"

@@ -12,6 +12,6 @@
 
 #import "AppDelegate.h"
 
-FOUNDATION_EXPORT double SellingCartAppVersionNumber;
-FOUNDATION_EXPORT const unsigned char SellingCartAppVersionString[];
+FOUNDATION_EXPORT double MyModuleVersionNumber;
+FOUNDATION_EXPORT const unsigned char MyModuleVersionString[];
 
